@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="532.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Button fx:id="btn1" layoutX="47.0" layoutY="117.0" mnemonicParsing="false" onAction="#Button1Action" text="Select File" />
+      <ListView fx:id="TxtFld" layoutX="147.0" layoutY="103.0" prefHeight="52.0" prefWidth="496.0" />
+      <ComboBox fx:id="combobox" layoutX="38.0" layoutY="186.0" onAction="#comboChanged" prefHeight="25.0" prefWidth="255.0" promptText="Select Form Name" />
+      <Button fx:id="AddForm" layoutX="446.0" layoutY="372.0" mnemonicParsing="false" onAction="#Button2Action" text="Add Form" />
+      <Text layoutX="388.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If your form is not present in the list please click on add form button to add the form name in the list." wrappingWidth="184.13671875" />
+      <ListView fx:id="QCList" layoutX="47.0" layoutY="266.0" prefHeight="236.0" prefWidth="200.0" />
+      <TextField fx:id="TxtFld2" layoutX="346.0" layoutY="321.0" onAction="#Button2Action" prefHeight="25.0" prefWidth="269.0" promptText="Enter the form name here" />
+      <Label layoutX="214.0" layoutY="30.0" prefHeight="50.0" prefWidth="248.0" text="QC ID Roster">
+         <font>
+            <Font name="Franklin Gothic Demi" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

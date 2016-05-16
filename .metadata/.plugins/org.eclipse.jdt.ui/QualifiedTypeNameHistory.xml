@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Cell"/>
+<fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
+<fullyQualifiedTypeName name="javafx.scene.Parent"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
+<fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TitledPane"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.image.Image"/>
+<fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
+<fullyQualifiedTypeName name="javafx.geometry.Pos"/>
+<fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+<fullyQualifiedTypeName name="javafx.scene.text.FontPosture"/>
+<fullyQualifiedTypeName name="javafx.stage.StageStyle"/>
+</qualifiedTypeNameHistroy>
